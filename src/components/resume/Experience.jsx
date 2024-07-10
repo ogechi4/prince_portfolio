@@ -20,7 +20,7 @@ const Experience = () => {
             subTitle="Rolantek - (2024 - Present)"
             result="Nigeria"
              des="Succesfully transitioned from a beginner to an intermediate front-end developer, 
-             continuously refning my skills and portfolio"
+             continuously refining my skills and portfolio"
         
           />
           <ResumeCard

@@ -18,7 +18,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="E-commerce Website"
-          des=" Full anmazon clone websites with google aunthentication, redux-toolkit for the store and
+          des=" Full amazon clone websites with google authentication, redux-toolkit for the store and
           stripe payment "
           src={projectOne}
           link="https://amazon-clent-1.vercel.app"
