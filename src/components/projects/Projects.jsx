@@ -21,6 +21,7 @@ const Projects = () => {
           des=" Full anmazon clone websites with google aunthentication, redux-toolkit for the store and
           stripe payment "
           src={projectOne}
+          link="https://amazon-clent-1.vercel.app"
         />
         <ProjectsCard
           title="Full Functional Dashboard"
@@ -39,6 +40,7 @@ const Projects = () => {
           des=" The use of API to be able to fetch images with great UI design and a search button in order 
           get any image of your choice"
           src={projectOne}
+          
         />
         <ProjectsCard
           title="Image-Gallery"
