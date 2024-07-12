@@ -25,27 +25,29 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Full Functional Dashboard"
-          des="Full functional dashboard withe signup and signi authentication, responsive
+          des="Full functional dashboard with signup and signin authentication, responsive
           and four different apps and functional maps present in the dashboard"
           src={projectThree}
+          link='https://standard-dashboard-git-main-princewill-ogechis-projects.vercel.app/'
         />
         <ProjectsCard
           title="Image-Gallery"
           des=" The use of API to be able to fetch images with great UI design and a search button in order 
           get any image of your choice"
           src={projectOne}
+          link=' https://ogechi4.github.io/Image-Search/'
         />
         <ProjectsCard
-          title="Image-Gallery"
-          des=" The use of API to be able to fetch images with great UI design and a search button in order 
-          get any image of your choice"
+          title="Health Care Managenment"
+          des="A healthcare platform that streamlines patient registration, appointment scheduling, 
+          and medical records, and learn to implement complex forms and SMS notification. "
           src={projectOne}
           
         />
         <ProjectsCard
-          title="Image-Gallery"
-          des=" The use of API to be able to fetch images with great UI design and a search button in order 
-          get any image of your choice"
+          title="Full Functional Website"
+          des="A fully functional website that integrates a range of advanced features to 
+          provide a seamless user experience."
           src={projectThree}
         />
         <ProjectsCard
