@@ -21,7 +21,7 @@ const Projects = () => {
           des=" Full amazon clone websites with google authentication, redux-toolkit for the store and
           stripe payment "
           src={projectOne}
-          link="https://amazon-clent-1.vercel.app"
+          link="https://amazon-clent.vercel.app"
         />
         <ProjectsCard
           title="Full Functional Dashboard"
