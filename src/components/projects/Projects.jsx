@@ -16,6 +16,14 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+
+      <ProjectsCard
+          title="Health Care Managenment"
+          des="A healthcare platform that streamlines patient registration, appointment scheduling, 
+          and medical records, and learn to implement complex forms and SMS notification. "
+          src={projectOne}
+            link=' https://health-polaris.vercel.app/'
+        />
         <ProjectsCard
           title="E-commerce Website"
           des=" Full amazon clone websites with google authentication, redux-toolkit for the store and
@@ -30,6 +38,9 @@ const Projects = () => {
           src={projectThree}
           link='https://standard-dashboard-git-main-princewill-ogechis-projects.vercel.app/'
         />
+        
+      
+
         <ProjectsCard
           title="Image-Gallery"
           des=" The use of API to be able to fetch images with great UI design and a search button in order 
@@ -38,20 +49,13 @@ const Projects = () => {
           link=' https://ogechi4.github.io/Image-Search/'
         />
         <ProjectsCard
-          title="Health Care Managenment"
-          des="A healthcare platform that streamlines patient registration, appointment scheduling, 
-          and medical records, and learn to implement complex forms and SMS notification. "
-          src={projectOne}
-          
-        />
-        <ProjectsCard
-          title="Full Functional Website"
-          des="A fully functional website that integrates a range of advanced features to 
+          title="School Management Web (IN PROGRESS)"
+          des="A fully functional school management website that integrates a range of advanced features to 
           provide a seamless user experience."
           src={projectThree}
         />
         <ProjectsCard
-          title="Food App"
+          title="Food App (IN PROGRESS)"
           des="Food App built with React Native with login authentication and great UI design 
           with Tailwind
           "
