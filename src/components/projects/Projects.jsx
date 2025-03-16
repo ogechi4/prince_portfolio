@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne,  projectThree, eco, doct } from "../../assets/index";
+import { projectOne,projectTwo,  projectThree, eco, doct } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -38,7 +38,13 @@ const Projects = () => {
           src={eco}
           link='https://paystack-ecommerce-adm.vercel.app/'
         />
-
+         
+         <ProjectsCard
+          title="CANVA DESIGN FOLDER"
+          des="Recent Canva designs I have succesffuly completed for clients ."
+          src={projectTwo}
+           link='https://drive.google.com/drive/u/0/mobile/folders/10_xapUK4x9ldocYHJ2XLcQNYrXRGJhwr?sort=13&direction=a '
+        />
          <ProjectsCard
           title="A RETAIL PRO (IN PROGRESS) "
           des="Currently building a retail management software that would be used by businesses to manage inventory, sales, customer relationships, suppliers, logistics and stor operations."
@@ -62,12 +68,7 @@ const Projects = () => {
           src={projectOne}
           link=' https://ogechi4.github.io/Image-Search/'
         />
-        <ProjectsCard
-          title="School Management Web (IN PROGRESS)"
-          des="A fully functional school management website that integrates a range of advanced features to 
-          provide a seamless user experience."
-          src={projectThree}
-        />
+       
        
       </div>
     </section>
