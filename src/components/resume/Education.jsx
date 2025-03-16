@@ -53,12 +53,12 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-             title="Front-End Developer"
-             subTitle="Rolantek - (2024 - Present)"
-             result="Nigeria"
-             des="Succesfully transitioned from a beginner to an intermediate front-end developer, 
-             continuously refining my skills and portfolio"
+        <ResumeCard
+            title="Front-End Developer"
+            subTitle="Rolantek Groups - (2024 - Present)"
+            result="Ebonyi, Nigeria"
+             des="Specializing in building responsive, user-friendly web interfaces using modern technologies like React, Typscipt, Tailwind"
+        
           />
           <ResumeCard
             title="Software Development Intern"
@@ -66,16 +66,14 @@ const Education = () => {
             result="Online"
             des="Completed a comprehensive introductory software development program covering fundamental concepts and best practices"
             
+            
           />
-            <ResumeCard
-            title="Front-end Developer"
-            subTitle="Self-Development - (2022 - 2023)"
-            result="Online"
-            des="Acquired proficiency in HTML,CSS, Javascript,REACT,TAILWIND"
-       
+          <ResumeCard
+            title="Front-end DeveloperIntern"
+            subTitle="Rolantek Groups  - (2022 - 2023)"
+            result="Ebonyi, Nigeria"
+           des="Acquired proficiency in HTML,CSS, Javascript,REACT,TAILWIND"
           />
-          
-          
         </div>
       </div>
     </motion.div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne,  projectThree, eco, doct } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -21,15 +21,29 @@ const Projects = () => {
           title="Health Care Managenment"
           des="A healthcare platform that streamlines patient registration, appointment scheduling, 
           and medical records, and learn to implement complex forms and SMS notification. "
-          src={projectOne}
+          src={doct}
             link=' https://health-polaris.vercel.app/'
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Full amazon clone websites with google authentication, redux-toolkit for the store and
-          stripe payment "
-          src={projectOne}
-          link="https://amazon-clent.vercel.app"
+          title="E-commerce Website (Users_Page)"
+          des=" Full-Stack Ecommerce website with signIn/signUp authentication, redux-toolkit for the store and
+          paystack payment integration "
+          src={eco}
+          link='https://paystack-ecommerce-front.vercel.app/'
+        />
+         <ProjectsCard
+          title="E-commerce Website (Admin_Page)"
+          des=" Full-Stack Ecommerce website with signIn/signUp authentication, redux-toolkit for the store and
+          paystack payment integration "
+          src={eco}
+          link='https://paystack-ecommerce-adm.vercel.app/'
+        />
+
+         <ProjectsCard
+          title="A RETAIL PRO (IN PROGRESS) "
+          des="Currently building a retail management software that would be used by businesses to manage inventory, sales, customer relationships, suppliers, logistics and stor operations."
+          src={projectThree}
+          // link='https://standard-dashboard-git-main-princewill-ogechis-projects.vercel.app/'
         />
         <ProjectsCard
           title="Full Functional Dashboard"
@@ -54,13 +68,7 @@ const Projects = () => {
           provide a seamless user experience."
           src={projectThree}
         />
-        <ProjectsCard
-          title="Food App (IN PROGRESS)"
-          des="Food App built with React Native with login authentication and great UI design 
-          with Tailwind
-          "
-          src={projectTwo}
-        />
+       
       </div>
     </section>
   );

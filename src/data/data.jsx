@@ -20,8 +20,8 @@ export const featuresData = [
   {
     id: 4,
     icon: <FaMobile />,
-    title: "Mobile-App Development",
-    des: "Crafting intuitive and resposive mobile apps tailored to client neds, from initial concept to deployment"
+    title: "Web/Social Media Manager",
+    des: "Crafting intuitive, curating content, engaging with audiences, analyzing performance metrics and implementing digital marketing strategies to grwo brand."
   },
   // {
   //   id: 5,

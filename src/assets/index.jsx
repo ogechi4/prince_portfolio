@@ -9,10 +9,14 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import prince  from "./images/prince.jpg"
 import MrP from "./images/MrP.png"
+import doct from "./images/projects/doct.jpg"
+import eco from "./images/projects/eco.jpg"
 
 export {
   logo,
   bannerImg,
+  doct,
+  eco,
   projectOne,
   projectTwo,
   projectThree,

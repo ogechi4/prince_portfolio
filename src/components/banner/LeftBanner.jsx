@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a passionate and dedicated web developer based in Lagos, Nigeria. With a strong love for all things tech and 
+          I am a passionate and dedicated WEB DEVELOPER/SOCIAL MEDIA MANAGER based in Lagos, Nigeria. With a strong love for all things tech and 
           creative mindset, I bring a unique approach to every project I undertake. My journey as web developer started with a curiosity to unravel
           the magic behind the websites I admired over the years, this curiosity evolved into a deep passion, leading me to explore various program languages
           and frameworks.

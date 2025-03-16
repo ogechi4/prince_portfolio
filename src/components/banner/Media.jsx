@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaReact, FaInstagram } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 const Media = () => {
   return (

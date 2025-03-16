@@ -17,10 +17,9 @@ const Experience = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Front-End Developer"
-            subTitle="Rolantek - (2024 - Present)"
-            result="Nigeria"
-             des="Succesfully transitioned from a beginner to an intermediate front-end developer, 
-             continuously refining my skills and portfolio"
+            subTitle="Rolantek Groups - (2024 - Present)"
+            result="Ebonyi, Nigeria"
+             des="Specializing in building responsive, user-friendly web interfaces using modern technologies like React, Typscipt, Tailwind"
         
           />
           <ResumeCard
@@ -32,9 +31,9 @@ const Experience = () => {
             
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Self-Development - (2022 - 2023)"
-            result="Online"
+            title="Front-end DeveloperIntern"
+            subTitle="Rolantek Groups  - (2022 - 2023)"
+            result="Ebonyi, Nigeria"
            des="Acquired proficiency in HTML,CSS, Javascript,REACT,TAILWIND"
 
        
@@ -55,9 +54,9 @@ const Experience = () => {
           />
           <ResumeCard
             title="Web Developer and Instructor"
-            subTitle="Self-Online-Institution (2022 - 2024)"
+            subTitle="P-Tech (2022 - 2024)"
             result="Online"
-            des="Self Organized training for interested students"
+            des="I championed and Organized online training for interested students on Web-development"
           />
           <ResumeCard
             title="School Teacher"
