@@ -18,7 +18,7 @@ const Experience = () => {
           <ResumeCard
             title="Front-End Developer"
             subTitle="Rolantek Groups(Remote) - (2023-Present)"
-            result="Ebonyi, Nigeria"
+            result="Ebonyi, Nigeria (Remote)"
              des="Specializing in building responsive, user-friendly web interfaces using modern technologies like React, Typscipt, Tailwind"
         
           />
