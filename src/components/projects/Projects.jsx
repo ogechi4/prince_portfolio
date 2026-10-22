@@ -32,18 +32,17 @@ const Projects = () => {
           link='https://paystack-ecommerce-front.vercel.app/'
         />
          <ProjectsCard
-          title="E-commerce Website (Admin_Page)"
-          des=" Full-Stack Ecommerce website with signIn/signUp authentication, redux-toolkit for the store and
-          paystack payment integration "
+          title="Food Website"
+          des="  Ecommerce website with successfully built for a client "
           src={eco}
-          link='https://paystack-ecommerce-adm.vercel.app/'
+          link='https://pefa.food/'
         />
          
          <ProjectsCard
-          title="CANVA DESIGN FOLDER"
-          des="Recent Canva designs I have succesffuly completed for clients ."
+          title="Gadgets Website"
+          des="Recent Gadgets website I have succesffuly completed for clients ."
           src={projectTwo}
-           link='https://drive.google.com/drive/u/0/mobile/folders/10_xapUK4x9ldocYHJ2XLcQNYrXRGJhwr?sort=13&direction=a '
+           link='https://doztech.co/ '
         />
          <ProjectsCard
           title="A RETAIL PRO (IN PROGRESS) "

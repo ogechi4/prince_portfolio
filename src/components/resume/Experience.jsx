@@ -11,33 +11,32 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-purple-500 tracking-[4px]">2010 - Present</p>
+          <p className="text-sm text-purple-500 tracking-[4px]"></p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Front-End Developer"
-            subTitle="Rolantek Groups(Remote) - (2023-Present)"
-            result="Ebonyi, Nigeria (Remote)"
-             des="Specializing in building responsive, user-friendly web interfaces using modern technologies like React, Typscipt, Tailwind"
-        
-          />
-          <ResumeCard
-            title="Software Development Intern"
-            subTitle="ALX-Online - (2023 - 2024)"
-            result="Online"
-            des="Completed a comprehensive introductory software development program covering fundamental concepts and best practices"
-            
-            
-          />
-          <ResumeCard
-            title="Front-end DeveloperIntern"
-            subTitle="Rolantek Groups  - (2022 - 2023)"
-            result="Ebonyi, Nigeria"
-           des="Acquired proficiency in HTML,CSS, Javascript,REACT,TAILWIND"
+         <ResumeCard
+  title="Software Development Engineer / Instructor"
+  subTitle="NIIT – Digital Fortress (2025–Present)"
+  result="Lagos, Nigeria"
+  des="Developed school CBT software, contributed to location-based staff attendance reporting, and currently building a multitenant School Management System. Teach full-stack development using React, JavaScript, Node.js, Express.js, MongoDB, SQL, Git, and GitHub."
+/>
 
-       
-          />
+<ResumeCard
+  title="Software Engineer (Frontend – Remote)"
+  subTitle="Rolantek Energy Limited (2022–2025)"
+  result="Lagos, Nigeria (Remote)"
+  des="Contributed to the development of StorePro retail management software using React and Redux Toolkit. Built dynamic forms for product management, sales processing, and user accounts while integrating REST APIs and collaborating with backend developers."
+/>
+
+<ResumeCard
+  title="Frontend Developer"
+  subTitle="Smartware Solution Limited (2020–2021)"
+  result="Ikeja, Lagos, Nigeria"
+  des="Developed responsive, user-friendly web applications using React, Angular, HTML, CSS, JavaScript, and Tailwind CSS. Integrated REST APIs, debugged applications, and improved performance, code reusability, and scalability."
+/>
+
+        
         </div>
       </div>
       <div>
@@ -52,18 +51,8 @@ const Experience = () => {
             result="Nigeria"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="P-Tech (2022 - 2024)"
-            result="Online"
-            des="I championed and Organized online training for interested students on Web-development"
-          />
-          <ResumeCard
-            title="School Teacher"
-            subTitle="Flora Schools (2023)"
-            result="Lagos"
-            des="Physics and Mathematics Instructor"
-          />
+        
+          
         </div>
       </div>
     </motion.div>

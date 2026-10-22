@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Front End Developer.", "UI Designer."],
+      words: ["Software Engineer.", "Front End Developer.", "Backend Engineer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -26,10 +26,12 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a passionate and dedicated WEB DEVELOPER/SOCIAL MEDIA MANAGER based in Lagos, Nigeria. With a strong love for all things tech and 
-          creative mindset, I bring a unique approach to every project I undertake. My journey as web developer started with a curiosity to unravel
-          the magic behind the websites I admired over the years, this curiosity evolved into a deep passion, leading me to explore various program languages
-          and frameworks.
+         I am a passionate and dedicated Software Engineer based in Lagos,
+          Nigeria, with a strong interest in technology, problem-solving, and
+           building innovative software solutions. My journey into software 
+           engineering began with a curiosity about how digital systems work and
+            how technology can solve real-world problems. This curiosity has
+             evolved into a deep passion for designing, developing, and maintaining efficient, scalable, and user-friendly applications using modern programming languages, frameworks, and development tools.
         </p>
       </div>
      {/* Media */}

@@ -1,5 +1,5 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
+import { FaMobile, FaGlobe,FaBrain } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 
 // Features Data
@@ -8,21 +8,28 @@ export const featuresData = [
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "Web Development",
+    title: "Websites and Web App Development",
     des: "Building dynamics and responsive websites from scratch, ensuring optimal performance and user experience"
   },
   {
-    id: 3,
-    icon: <SiProgress />,
-    title: "WordPress",
-    des: "Designing and developing wordpress websites, optimizing for performance and user experience"
-  },
+  id: 3,
+  icon: <SiProgress />,
+  title: "Mobile Application Development",
+  des: "Building responsive, user-friendly mobile applications with a focus on performance, functionality, and seamless user experience."
+},
   {
     id: 4,
     icon: <FaMobile />,
-    title: "Web/Social Media Manager",
-    des: "Crafting intuitive, curating content, engaging with audiences, analyzing performance metrics and implementing digital marketing strategies to grwo brand."
+    title: "IT consultancy services",
+    des: ""
   },
+
+  {
+  id: 5,
+  icon: <FaBrain />,
+  title: "AI Integration",
+  des: "Integrating AI-powered solutions into web applications to automate workflows, enhance user experiences, and build intelligent features using modern AI APIs and tools."
+},
   // {
   //   id: 5,
   //   icon: <SiAntdesign />,

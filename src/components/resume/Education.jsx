@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { motion } from 'framer-motion';
 import ResumeCard from './ResumeCard';
@@ -11,69 +12,22 @@ const Education = () => {
     >
       {/* part one */}
       <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-purple-500 tracking-[4px]">2006 - 2019</p>
+        <div className="py-4 lgl:py-6 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 lgl:mt-6 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-6">
           <ResumeCard
             title="B-Tech in Physics Electronics"
             subTitle="F.U.T.O, Nigeria. (20014 - 2019)"
             result="Nigeria"
-           des="Higher education is tertiary education leading to award of an academic degree. Higher education,"
-              />
+            des="Higher education is tertiary education leading to award of an academic degree. Higher education,"
+          />
           {/* <ResumeCard
             title="AS - Science & Information"
             subTitle="SuperKing College (2001 - 2005)"
             result="4.75/5"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           /> */}
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="C.S.S Ogan-Ama,Rivers,Nigeria (2006 - 2013)"
-            result="Nigeria"
-           des="secondary school Education leading to award of an academic degree. (WAEC)"
-            
-          />
-
-           <ResumeCard
-            title="Primary School Education"
-            subTitle="St. Morris,International School (2001 -2006)"
-            result="Nigeria"
-           des="Acquired my First School Leaving Certificate"
-            
-          />
-        </div>
-      </div>
-      {/* part Two */}
-
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-purple-500 tracking-[4px]">2022 - Present</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
-        </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-        <ResumeCard
-            title="Front-End Developer"
-            subTitle="Rolantek Groups(Remote) - (2024 - Present)"
-            result="Ebonyi, Nigeria (Remote)"
-             des="Specializing in building responsive, user-friendly web interfaces using modern technologies like React, Typscipt, Tailwind"
-        
-          />
-          <ResumeCard
-            title="Software Development Intern"
-            subTitle="ALX-Online - (2023 - 2024)"
-            result="Online"
-            des="Completed a comprehensive introductory software development program covering fundamental concepts and best practices"
-            
-            
-          />
-          <ResumeCard
-            title="Front-end DeveloperIntern"
-            subTitle="Rolantek Groups  - (2022 - 2023)"
-            result="Ebonyi, Nigeria"
-           des="Acquired proficiency in HTML,CSS, Javascript,REACT,TAILWIND"
-          />
         </div>
       </div>
     </motion.div>
